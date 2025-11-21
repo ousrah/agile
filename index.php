@@ -6,7 +6,7 @@ require_once './layout/header.php';
 require_once './partials/partie_1.php';
 require_once './partials/partie_2.php';
 require_once './partials/partie_3.php';
-require_once './partials/partie_4.php'; // NOUVEAU
+
 require_once './partials/felicitation.php'; // NOUVEAU
 
 require_once './layout/footer.php';
