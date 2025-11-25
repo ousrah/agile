@@ -12,6 +12,8 @@
         <p class="text-gray-700 mb-4 text-justify">
             Selon le <strong>PMI (Project Management Institute)</strong>, un projet est une entreprise <strong>temporaire</strong> initiée dans le but de fournir un produit, un service ou un résultat <strong>unique</strong>.
         </p>
+
+        <img src="img/projet1.png" alt = "Gestion de projet" class="w-full/80 m-auto" />
         <div class="grid md:grid-cols-3 gap-4 mt-4">
             <div class="bg-blue-50 p-4 rounded border-l-4 border-blue-500">
                 <h5 class="font-bold text-blue-900">Temporaire</h5>
@@ -31,11 +33,14 @@
     <div class="space-y-6">
         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
             <h4 class="text-xl font-bold text-gray-800 mb-2">1.2 La Gestion de Projet (Project Management)</h4>
+            
             <p class="text-gray-700 text-justify">
                 C'est l'application de connaissances, de compétences, d'outils et de techniques aux activités du projet afin d'en respecter les exigences. Elle vise à équilibrer les contraintes concurrentes du projet (Qualité, Coût, Délai).
             </p>
         </div>
-
+      <img src="img/gestionProjet.jpg" alt = "Gestion de projet" class="w-full m-auto" />
+      
+     
         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
             <h4 class="text-xl font-bold text-gray-800 mb-2">1.3 Spécificités de la Gestion de Projet Informatique</h4>
             <p class="text-gray-700 mb-2">Les projets IT se distinguent par :</p>
@@ -74,6 +79,9 @@
                 </ul>
             </div>
         </div>
+              <img src="img/stakeholders.png" alt = "Parties prenantes" class="w-full m-auto" />
+      
+     
     </div>
 
     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 mb-6">
@@ -108,10 +116,15 @@
                 </tbody>
             </table>
         </div>
+           <img src="img/moamoe.jpg" alt = "MOA vs MOE" class="w-full m-auto" />
+          <img src="img/moamoe2.jpg" alt = "MOA vs MOE" class="w-full m-auto" />
+      
+
     </div>
 
     <div class="bg-yellow-50 p-6 rounded-lg border-l-4 border-yellow-500 shadow-sm">
         <h4 class="text-xl font-bold text-yellow-900 mb-3">2.3 La Matrice RACI (Assignation des responsabilités)</h4>
+        <img src = "img/raci1.png" class="m-auto w-20"alt = "Matrice Raci"/>
         <p class="text-gray-800 text-sm mb-4">Outil indispensable pour éviter les conflits et les "trous dans la raquette". Pour chaque tâche, on définit :</p>
         <ul class="grid md:grid-cols-2 gap-4 text-sm text-gray-800">
             <li><strong class="text-red-600">R - Responsible (Réalisateur) :</strong> Celui qui fait le travail. (Le développeur).</li>
@@ -119,27 +132,35 @@
             <li><strong class="text-red-600">C - Consulted (Consulté) :</strong> Expert qu'on consulte avant de décider (ex: un Architecte DB). Communication bidirectionnelle.</li>
             <li><strong class="text-red-600">I - Informed (Informé) :</strong> Personne tenue au courant de l'avancement. Communication unidirectionnelle.</li>
         </ul>
+      
     </div>
+    <img src = "img/raci2.png" alt = "Matrice Raci"/>
 </section>
 
 <!-- ========== CHAPITRE 3 : CARACTÉRISTIQUES ET CONTRAINTES ========== -->
 <section id="caracteristiques" class="mb-16">
     <h3 class="text-2xl font-semibold mb-4 text-blue-800">Chapitre 3 : Caractéristiques et Contraintes</h3>
     
-    <div class="grid md:grid-cols-2 gap-8">
+
+    <div class="grid md:grid-cols-1 gap-8">
         <!-- Caractéristiques -->
         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
             <h4 class="text-lg font-bold text-gray-800 mb-3">Caractéristiques de base</h4>
+            
+            <img src = "img/smart1.png" class="m-auto w-48"alt = "Objectif SMART"/>
             <ul class="space-y-3 text-gray-700">
                 <li class="flex items-start"><span class="text-blue-500 mr-2">➤</span> <strong>Objectif SMART :</strong> Spécifique, Mesurable, Atteignable, Réaliste, Temporellement défini.</li>
                 <li class="flex items-start"><span class="text-blue-500 mr-2">➤</span> <strong>Cycle de vie :</strong> Découpage en phases (Cadrage, Conception, Réalisation, Clôture).</li>
                 <li class="flex items-start"><span class="text-blue-500 mr-2">➤</span> <strong>Irréversibilité :</strong> Certaines décisions (choix technologiques) sont difficiles à changer plus tard.</li>
             </ul>
+            
         </div>
-
+<img src = "img/smart.jpg" class="m-auto "alt = "SMART GOALS"/>
         <!-- Contraintes -->
         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
             <h4 class="text-lg font-bold text-gray-800 mb-3">Le Triangle d'Or (Q-C-D)</h4>
+            <img src = "img/triangle1.png" class="m-auto w-48"alt = "Triangle d'or "/>
+           
             <p class="text-sm text-gray-600 mb-3">La gestion de projet est un art de l'équilibre entre trois contraintes interdépendantes :</p>
             <div class="space-y-2 text-gray-700">
                 <p><strong>1. Qualité / Périmètre (Scope) :</strong> Ce qu'il faut faire.</p>
@@ -148,6 +169,7 @@
             </div>
             <p class="text-xs text-red-600 mt-3 font-semibold"><em>Règle : Si on modifie l'un des côtés, au moins un des autres doit changer (ex: réduire le délai = augmenter le coût ou réduire la qualité).</em></p>
         </div>
+        <img src = "img/triangle2.png" class="m-auto w-full " alt = "Triangle d'or"/>
     </div>
 </section>
 
@@ -160,11 +182,13 @@
         <!-- Waterfall -->
         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
             <h4 class="text-xl font-bold text-gray-800 mb-2">4.1 La Méthode en Cascade (Waterfall)</h4>
+            <img src = "img/waterfall.png" alt = "Waterfall" class = "m-auto mb-6 w-1/2" />
             <p class="text-gray-700 mb-2">Le modèle historique. Chaque phase doit être <strong>validée et terminée</strong> avant de passer à la suivante. Le flux descend comme une chute d'eau.</p>
             <p class="text-sm text-gray-500 mb-4">Étapes : Exigences -> Analyse -> Conception -> Implémentation -> Test -> Maintenance.</p>
-            <div class="bg-red-50 p-3 rounded text-sm text-red-800">
+            <div class="bg-red-50 p-3 m-6 rounded text-sm text-red-800">
                 <strong>Inconvénient majeur :</strong> L'effet tunnel. Le client ne voit le produit qu'à la toute fin. Si le besoin a changé entre temps, c'est l'échec.
             </div>
+             <img src = "img/waterfall.jpg" alt = "Waterfall" class = "m-auto w-full" />
         </div>
 
         <!-- Cycle en V -->
@@ -176,6 +200,7 @@
                 <li>Conception Globale ↔ Tests d'Intégration</li>
                 <li>Conception Détaillée ↔ Tests Unitaires</li>
             </ul>
+            <img src = "img/cyclev.png" alt = "Cycle en v" class = "m-auto w-full" />
         </div>
 
         <!-- Cycle en Y -->
@@ -195,6 +220,7 @@
                     <strong>Fusion :</strong><br>Réalisation & Intégration
                 </div>
             </div>
+            <img src = "img/cycleY.png" alt = "Cycle en Y" class = "m-auto w-full" />
         </div>
     </div>
 </section>
@@ -202,18 +228,23 @@
 <!-- ========== CHAPITRE 5 : MÉTHODOLOGIES NON PRÉVISIBLES (AGILES) ========== -->
 <section id="methodes-agiles" class="mb-16">
     <h3 class="text-2xl font-semibold mb-4 text-blue-800">Chapitre 5 : Méthodologies Non Prévisibles (Agiles)</h3>
+
+ <img src = "img/agile.webp" alt = "Cycle en Y" class = "m-auto w-48 mt-6" />
+
     <p class="text-gray-700 mb-6">L'Agile n'est pas une méthode, c'est une philosophie (Mindset) née pour répondre à l'imprévisibilité des projets IT.</p>
 
     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 mb-8">
         <h4 class="text-xl font-bold text-gray-800 mb-4">5.1 Le Manifeste Agile (2001)</h4>
         <p class="text-gray-700 mb-4">4 valeurs fondamentales qui privilégient :</p>
         <ul class="list-none space-y-3">
-            <li class="flex items-center bg-green-50 p-2 rounded"><span class="font-bold mr-2">1.</span> Les <strong>individus et leurs interactions</strong> plus que les processus et les outils.</li>
-            <li class="flex items-center bg-green-50 p-2 rounded"><span class="font-bold mr-2">2.</span> Des <strong>logiciels opérationnels</strong> plus qu’une documentation exhaustive.</li>
-            <li class="flex items-center bg-green-50 p-2 rounded"><span class="font-bold mr-2">3.</span> La <strong>collaboration avec les clients</strong> plus que la négociation contractuelle.</li>
-            <li class="flex items-center bg-green-50 p-2 rounded"><span class="font-bold mr-2">4.</span> L’<strong>adaptation au changement</strong> plus que le suivi d’un plan.</li>
+            <li class="flex items-center bg-green-50 p-2 rounded"><span class="font-bold mr-2">1.</span> Les <strong>&nbsp;individus et leurs interactions</strong>&nbsp;plus que les processus et les outils.</li>
+            <li class="flex items-center bg-green-50 p-2 rounded"><span class="font-bold mr-2">2.</span> Des <strong>&nbsp;logiciels opérationnels</strong>&nbsp;plus qu’une documentation exhaustive.</li>
+            <li class="flex items-center bg-green-50 p-2 rounded"><span class="font-bold mr-2">3.</span> La <strong>&nbsp;collaboration avec les clients</strong>&nbsp;plus que la négociation contractuelle.</li>
+            <li class="flex items-center bg-green-50 p-2 rounded"><span class="font-bold mr-2">4.</span> L’<strong>&nbsp;adaptation au changement</strong>&nbsp;plus que le suivi d’un plan.</li>
         </ul>
     </div>
+    <img src = "img/manifesto.jpg" alt = "Cycle en Y" class = "m-auto w-full" />
+<img src = "img/principes-agiles.png" alt = "Cycle en Y" class = "m-auto w-full" />
 
     <!-- Tableau comparatif Agile vs Waterfall -->
     <div class="overflow-x-auto mb-8">
